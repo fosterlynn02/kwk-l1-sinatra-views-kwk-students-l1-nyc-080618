@@ -12,5 +12,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/'do 
-
-end 
+ return erb :dogs
+    end
+    
+    end 
