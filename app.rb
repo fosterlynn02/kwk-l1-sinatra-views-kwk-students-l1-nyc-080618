@@ -11,6 +11,6 @@ class ApplicationController < Sinatra::Base
     return erb :index
   end
   
-  
+  get '/'do 
 
 end 
